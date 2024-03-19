@@ -7,9 +7,9 @@ const Fruits = new Schema({
       quantity:{type: Number}, 
       price:{type: Number}, 
       status:{type: Number}, 
-      image:{type: Array}, 
+      image:{type: String}, 
       description:{type: String}, 
-      id_distributor:{type: Schema.Types.ObjectId, ref: 'distributor'}, 
+      id_distributor:{type: String}, 
 
 
 },{
